@@ -134,9 +134,8 @@ function App() {
           <FloatingLabel controlId="floatingTextarea2" label="Loading...">
             <Form.Control
               as="textarea"
-              placeholder="Leave a comment here"
               style={{ height: "100px" }}
-              defaultValue={language && language == 0 ? "Loading..." : language}
+              defaultValue={language}
             />
           </FloatingLabel>
         </div>
