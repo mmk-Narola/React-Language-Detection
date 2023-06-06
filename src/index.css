@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #040c14 !important;
+  text-align: left;
+  background-color: #f7f8f9;
+}
+
+.page-content {
+  padding: 20px 0 0px 50px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 5px;
+  background: #454e56;
+  color: #fcfeff;
+  font-weight: 600;
+  margin: 0.25em 0.1em;
+}
+
+.tag-sm {
+  font-size: 0.8em;
+  display: inline-block;
+  letter-spacing: 0.15ch;
+  font-weight: 400;
+  white-space: nowrap;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+}
